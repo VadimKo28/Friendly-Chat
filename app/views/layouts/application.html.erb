@@ -9,7 +9,22 @@
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
-  <body>
-    <%= yield %>
+  <body style="margin: 0">
+
+    <div class="navbar">
+    
+    <ul>
+      <li><a href="default.asp">Home</a></li>
+      <li><a href="news.asp">News</a></li>
+      <li><a href="contact.asp">Contact</a></li>
+      <li><a href="about.asp">About</a></li>
+      <li id="styling-logo" >Friendly chat</li>
+    </ul>
+    </div>
+
+    <div style="margin-left: 15px">
+      <%= yield %>
+    </div>
+
   </body>
 </html>

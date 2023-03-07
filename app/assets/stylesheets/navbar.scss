@@ -1,0 +1,40 @@
+@font-face {
+    font-family: "Blogger Sans Bold";
+    src: url('/assets/Blogger_Sans-Bold.otf');
+}
+
+#styling-logo {
+    padding: 17px;
+    float: left;
+    color: rgb(245, 244, 243);
+    font-size: 40px;
+    line-height: 22px;
+    font-family: "Blogger Sans Bold", Arial, sans-serif;
+}
+
+.navbar {
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        height: 50px;
+        background-color: #6e86c9;
+    }
+
+    li {
+        float: right;
+    }
+
+    a {
+        display: block;
+        padding: 17px;
+        color: aliceblue;
+        font-family: "Blogger Sans Bold", Arial, sans-serif;
+
+    }
+
+    li a:hover {
+        background-color: rgb(21, 56, 88)
+    }
+}
