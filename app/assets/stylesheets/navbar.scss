@@ -17,9 +17,8 @@
         list-style-type: none;
         margin: 0;
         padding: 0;
-        overflow: hidden;
         height: 50px;
-        background-color: #6e86c9;
+        background-color: #99b4fc;
     }
 
     li {
@@ -28,13 +27,11 @@
 
     a {
         display: block;
-        padding: 17px;
+        padding: 16.2px;
         color: aliceblue;
         font-family: "Blogger Sans Bold", Arial, sans-serif;
 
     }
 
-    li a:hover {
-        background-color: rgb(21, 56, 88)
-    }
+    
 }

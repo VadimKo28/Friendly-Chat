@@ -4,5 +4,5 @@
   <p><%= link_to room.title, room_path(room) %></p>
 <%end%>
 
-<%= link_to "Create room", new_room_path %>
+<%= button_to "Create room", new_room_path, method: :get %>
 
