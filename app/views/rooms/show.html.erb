@@ -1,1 +1,10 @@
-<p><%= @room.title%></p>
+<h2><%= @room.title%></h2>
+
+<% @room.messages.each do |message|%>
+  <p><%= message.user.email%>:  <%= message.body%></p>
+<%end%>
+
+<%= form_for [@room, Message.new] do |f|%>
+  <%= f.text_area :body, rows: 1, class: "form-control", autofocus: true%>
+  <%= f.submit "Send" %>
+<%end%>
